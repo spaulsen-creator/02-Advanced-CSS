@@ -62,7 +62,8 @@
     border-style: solid;
     border-width: 1px;
     padding: 10px;
-    width: 100%;
+    /* removed width: 100%; */
+    
 
     opacity: .85;
 
@@ -108,10 +109,11 @@
   }
 
   
-    
+  /* footer work*/ 
 
   .footer {
-    position: fixed;
+    /* removed position: fixed;*/
+    
     bottom:0;
     left:0;
     width:100%;
@@ -125,8 +127,40 @@
     justify-content: space-between;
   
   }
+/* unnecessary??? */
+  .footer-text-left {
+    font-size: 25px;
+    padding-left: 40px;
+    float: left;
+    word-spacing: 20px;
+  }
 
- .join-foolow a {
+  .footer-content-right {
+    padding-right: 40px;
+    margin-top: 20px;
+    float:right;
+  }
+
+  .icon-style {
+    height:40px;
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .icon-style:hover {
+    background-color: cyan;
+    padding: 5px;
+  }
+
+  a.menu:hover {
+    background-color: cyan;
+    font-size: 20px;
+  }
+
+  
+
+/* footer work end */
+  .join-foolow a {
     color: black;
     padding: 25px 25px;
     font-size: x-large;
