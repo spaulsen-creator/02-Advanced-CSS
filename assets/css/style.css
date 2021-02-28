@@ -40,44 +40,56 @@
     padding: 25px 46px 25px 25px;
     text-shadow: 1px 1px #fff;
     background-image: url(https://previews.123rf.com/images/oatautta/oatautta1706/oatautta170600136/81519390-blue-steel-plate-industrial-for-background-.jpg);
-    background-color: darkblue;
+    background-color: rgb(23, 106, 214);
   }
 
   .bigbox {
     width: 100%;
     float: right;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+   /*display: flex;*/
+    
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
     padding: 25px 25px 25px 120px;
   }
 
    
+  .aboutMe {
 
+    border-style: 1px;
+    background-color: rgb(23, 106, 214);
+  }
+
+  
 
     
 
   .card {
+    display: flex;
     text-align: center;
     border-style: solid;
     border-width: 1px;
-    padding: 10px;
+    padding: 6px;
+    width: 30%;
+    height: 30%;
+    background-color:rgb(23, 106, 214);
     /* removed width: 100%; */
-    
-
     opacity: .85;
-
   }
   
   .card:hover {
     opacity: 1;
   }
-  .card header {
-    padding: 20px;
+  
+  
+  .card img {
+    text-align: center;
   }
   
-  
-  
+  /*.card h2 {
+    display: block;
+
+  } */
   
 
   .join-follow {
@@ -94,7 +106,7 @@
 
   footer ul{
     width: 10;
-    border: 10px darkblue;
+    border: 10px rgb(23, 106, 214);
     margin: 10px;
     
     font-size: 1px;
@@ -148,12 +160,12 @@
   }
 
   .icon-style:hover {
-    background-color: cyan;
+    background-color: rgb(65, 148, 243);
     padding: 5px;
   }
 
   a.menu:hover {
-    background-color: cyan;
+    background-color: rgb(65, 148, 243);
     font-size: 20px;
   }
 
