@@ -46,23 +46,8 @@
   .bigbox {
     width: 100%;
     float: right;
-   /*display: flex;*/
-    
-    /*flex-wrap: wrap;*/
-    /*justify-content: space-between;*/
     padding: 25px 25px 25px 120px;
   }
-
-   
-  .aboutMe {
-
-    border-style: 1px;
-    background-color: rgb(23, 106, 214);
-  }
-
-  
-
-    
 
   .card {
     display: flex;
@@ -73,7 +58,7 @@
     width: 30%;
     height: 30%;
     background-color:rgb(23, 106, 214);
-    /* removed width: 100%; */
+    text-shadow: 2px 1px 4px #fff;
     opacity: .85;
   }
   
@@ -81,51 +66,12 @@
     opacity: 1;
   }
   
-  
-  .card img {
-    text-align: center;
-  }
-  
-  /*.card h2 {
-    display: block;
-
-  } */
-  
-
-  .join-follow {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing:border-box;
-    position: fixed;
-    left: 0;
-    
-    width: 55px;
-    height: 275px;
-  }
-
-  footer ul{
-    width: 10;
-    border: 10px rgb(23, 106, 214);
-    margin: 10px;
-    
-    font-size: 1px;
-    
-    
-  }
-
-  
   .email {
     display: block;
     font-style: initial;
   }
 
-  
-  /* footer work*/ 
-
   .footer {
-    /* removed position: fixed;*/
-    
     bottom:0;
     left:0;
     width:100%;
@@ -138,13 +84,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
   
-  }
-/* unnecessary??? */
-  .footer-text-left {
-    font-size: 25px;
-    padding-left: 40px;
-    float: left;
-    word-spacing: 20px;
   }
 
   .footer-content-right {
@@ -167,31 +106,16 @@
   a.menu:hover {
     background-color: rgb(65, 148, 243);
     font-size: 20px;
-  }
-
-  
-
-/* footer work end */
-  .join-foolow a {
-    color: black;
-    padding: 25px 25px;
-    font-size: x-large;
-    font-weight: 900;
-
-    text-decoration: none;
-    text-align: center;
-  }
-
+} 
 
   @media screen and (max-width: 992px) {
     .card {
       width: 50%;
     }
-}
+  }
   
-  /* Cards are stacked on top of each other at 768px or smaller */
   @media screen and (max-width: 768px) {
     .card {
       width: 100%;
     }
-}
+  }
