@@ -19,4 +19,4 @@
 ## Link to deployed website.
 https://spaulsen-creator.github.io/02-Portfolio-Advanced-CSS/.
 
-https://spaulsen-creator.github.io/02-Portfolio-Advanced-CSS/
+https://github.com/spaulsen-creator/02-Portfolio-Advanced-CSS
