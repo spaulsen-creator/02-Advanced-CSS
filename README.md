@@ -9,15 +9,14 @@
 * As there were no other projects available at this time a hover property was added in css for the remainder.
 * Images were styled and a touch of styling was added to the text used.
 * I do expect the layout to change from a design standpoint as knowledge increases.
-## CSS code used for basic design and styling.
-* Changed class to .benefits to reduce 3 portions of css styling.
-* Changed class to .benefits h3 to reduce 3 portions of css styling.
-* Changed class to .benefits img to reduce 3 portions of css styling.
-* Changed class to .departments to reduce 3 portions of css styling.
-* Changed class to .departments img to reduce 3 portions of css styling.
-* Changed class to .departments h2 to reduce 3 portions of css styling.
+## CSS code used for basic design and styling.                                                               
+* In addition to basic flexbox styling, text-shadow was added for visibility.
+* background-color was added to the header and images in case of a image load failure.
+* A hover element was added to the projects cards and footer icons.
+* Icons for GitHub , email and LinkedIn were added with alt elements.
+
 
 ## Link to deployed website.
-https://spaulsen-creator.github.io/01-HTML-CSS-GIT--CODE-REFACTOR/
+https://spaulsen-creator.github.io/02-Portfolio-Advanced-CSS/.
 
-https://github.com/spaulsen-creator/01-HTML-CSS-GIT--CODE-REFACTOR
+https://spaulsen-creator.github.io/02-Portfolio-Advanced-CSS/
