@@ -20,6 +20,10 @@ nav {
     text-align: right;
 }
 
+#aboutMe {
+    font-weight: 500;
+}
+
 .container {
     padding-left: 8%;
     padding-right: 8%;
