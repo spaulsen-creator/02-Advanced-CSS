@@ -1,28 +1,19 @@
-# 02-Portfolio-Advanced-CSS
+# 08-Portfolio-Revision
 
-# Project-1-Trail-Finder
 
-## Project Title
-
-Hike5280
 
 
 ## Project Description 
 
-A simple website created for users who want to hike around Denver featuring 16 different hikes.  When the user clicks on a certain hike, the users will be able to see the location on the map provided and given a link for more information on that specific hike.  If the user navigates to another page, the last hike searched will be saved on the map if the user returns to search for more hikes. 
+A simple portfolio design that better showcases my projects allowing easy navigation, clean layout and solid contact information. The project links open in a second window reducing the need to arrow back and forth in the portfolio. 
 
-## Usage
-
-![screenshot](assets/img/screencapture-cwhirl-github-io-trail-finder-index-html-2021-04-01-22_14_53.png)
-![screenshot](assets/img/screencapture-cwhirl-github-io-trail-finder-searchlist-html-2021-04-01-22_15_15.png)
-![screenshot](assets/img/screencapture-cwhirl-github-io-trail-finder-aboutus-html-2021-04-01-22_15_32.png)
 
 
 
 ## License 
 
 MIT License
-Copyright (c) 2021 Shawn Paulsen
+Copyright (c) 2021 Shawn Paulsen - 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -52,8 +43,6 @@ https://github.com/spaulsen-creator/02-Portfolio-Advanced-CSS
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 
-[![forthebadge](https://forthebadge.com/images/badges/winter-is-coming.svg)](https://forthebadge.com)
-
 [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
