@@ -31,9 +31,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Link to deployed website.
-https://spaulsen-creator.github.io/02-Portfolio-Advanced-CSS/.
+https://spaulsen-creator.github.io/08-Portfolio-Revision/
 
-https://github.com/spaulsen-creator/02-Portfolio-Advanced-CSS
+https://github.com/spaulsen-creator/08-Portfolio-Revision/settings/pages
 
 ## Badges
 
