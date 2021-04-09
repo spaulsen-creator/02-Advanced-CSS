@@ -4,104 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced CSS Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets.css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Cinch knot Creations</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./assets.css/reset.css" /> -->
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-    <header class="page-title">
-        <!-- <h1 style="color: black">Shawn Paulsen</h1> -->
-        <nav>
-            <div class="links">
-                <h1 style="color: black">Shawn Paulsen</h1>
-            </div>
-           <div>
-            <a href="#aboutMe">About Me</a>
-            <a href="#codeRefactor">Work</a>
-            <a href="#contactMe">Contact Me</a>
-            <a href="assets/SP resume 3.9.19 (1).pages">Resume</a>
-            </div>
-        </nav>
-    </header>
-
-
-    <main>
-        <header style="color: black" class="subtitle">
-            <h2>A Creative Journey</h2>
-        </header>
-
-        <section class="bigbox">
-            <div class="container">
-                <h2 id="aboutMe">About Me</h2>
-            </div>
-            <div>
-                <img src="assets/images/Photo on 2-26-21 at 4.44 PM.jpg" width="230" height="165" alt="Self Portrait" >
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. 
-                </p>
-            </div>
-        </section>
-
-        
-        
-
-        <section class="container">
-                <div>
-                <h2 id="hike-5280">Hike 5280 </h2>
-                </div>
-                <a href="https://cwhirl.github.io/trail-finder/index.html">
-                <img alt="Scenic Colorado" src="assets/images/maroonbells_jerry_blank_craterlake_colorado.jpeg" width="550" height="375">
-                </a>
-
-            </section>
-           
-
-        <a class="container">
-            <div>
-                <h2 id="password">Password Generator</h2>
-            </div>
-            <a href="https://spaulsen-creator.github.io/03-JavaScript-Password-Generator/">
-            <img src="assets/images/password_entry_amid_binary_code_by_matejmo_gettyimages-808422590_cso_nw_2400x1600-100855218-large.jpeg" width="350" height="270"
-                alt="Binary Password Image"/>
-            </a>
-        </section>
-
-
-        <section class="container">
-            <div>
-                <h2 id="quiz">Coding Quiz</h2>
-            </div>
-            <a href="https://spaulsen-creator.github.io/04-Web-APIs-Code-Quiz/">
-            <img src="assets/images/Working-with-adaptive-quizzes-A-beginners-guide.jpeg" width="350" height="270"
-                alt="Ready to take a quiz?" />
-            </a>
-        </section>
-
-
-        <a class="container">
-            <div>
-                <h2 id="scheduler">Work Day Scheduler</h2>
-            </div>
-            <a href="https://spaulsen-creator.github.io/05-Third-Party-APIs-Work-Day-Scheduler/">
-            <img src="assets/images/The-Scheduler-for-Jira-1.png" width="350" height="270" alt="Starburst pattern" />
-            </a>
-        </section>
-    </main>
-
-
-    <footer>
-        <div id="contactMe" class="footer">
-            <h1 style="color: black">Contact Me</h1>
-                <a href="mailto:spaulsen68@yahoo.com"><img src="assets/images/email.jpeg" class="icon-style" alt="Email icon"></a>
-                <a target="_blank" href="https://github.com/spaulsen-creator"><img src="assets/images/github.jpeg" class="icon-style" alt="GitHub icon"></a>
-                <a target="_blank" href="https://www.linkedin.com/in/shawn-paulsen-84b39a206/"><img src="assets/images/1_ZZfZ-HguJYwTkmIglogVbw.jpeg" class="icon-style" alt="LinkedIn icon"></a>
-                    
+    <div class="container">
+        <div class="navbar">
+            <p class="shawn">Shawn Paulsen</p>
+            <nav>
+                <ul>
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#hike5280">Work</a></li>
+                    <li><a href="#contactMe">Contact Me</a></li>
+                    <li><a href="assets/SP resume 3.9.19 (1).pages">Resume</a></li>
+                </ul>
+            </nav>
         </div>
-    </footer>
-</body>
 
+        <div class="row">
+            <div class="col">
+                <h2 id="aboutMe">My Palette</h2>
+                <img src="./assets/images/portrait.jpg" width="275" height="187" alt="Self-Portrait">
+                <p>The story that is Shawn...developer, artist, musician, and all around creative pursurer.</p>
+            </div>
+            <div class="col">
+                <div class="card card1" id="hike5280">
+                    <a href="https://cwhirl.github.io/trail-finder/index.html" target="_blank"><h4>Hike 5280</h4></a>
+                </div>
+              
+                <div class="card card2">
+                    <a href="https://spaulsen-creator.github.io/03-JavaScript-Password-Generator/" target="_blank"><h4>Password Generator</h4></a>
+                </div>
+
+                <div class="card card3">
+                    <a href="https://spaulsen-creator.github.io/05-Third-Party-APIs-Work-Day-Scheduler/" target="_blank"><h4 id="work">Work Day Scheduler</h4></a>
+                </div>
+
+                <div class="card card4">
+                    <a href="https://spaulsen-creator.github.io/04-Web-APIs-Code-Quiz/" target="_blank"><h4>Coding Quiz</h4></a>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="navbar">
+            <p class="shawn" id="contactMe">Contact Me</p>
+            <nav>
+                <ul>
+                    <li><a href="mailto:spaulsen68@yahoo.com"><img src="assets/images/email.jpeg" class="icon-style" alt="Email icon"></a></li>
+                    <li><a target="_blank" href="https://github.com/spaulsen-creator"><img src="assets/images/github.jpeg" class="icon-style" alt="GitHub icon"></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/shawn-paulsen-84b39a206/"><img src="assets/images/1_ZZfZ-HguJYwTkmIglogVbw.jpeg" class="icon-style" alt="LinkedIn icon"></a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>

@@ -1,129 +1,142 @@
 * {
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
+    /*width: 100%;
+    height: 100vh;*/
+    background-image: url("../images/photo-1598103586054-c4b456cbddc4.jpeg");
+    /*background-position: center;*/
+    background-size: cover;
 }
 
-/* .page-title { 
+.navbar {
+    height:12%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 25px;
-    text-shadow: 2px 1px 4px #fff;
-    background-color: rgb(23, 106, 214);
-  } */
+    align-items: center;
+}
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  position: sticky;
-  top: 0;
-  flex-wrap: wrap;
-  padding: 1.5rem 2rem;
-  background-color: rgb(23, 106, 214);
-  text-shadow: 2px 1px 4px #fff;
-
-}
-
-nav a {
-  color: black;
-  padding: 25px 25px 25px 25px;
-  font-size: large;
-  font-weight: 600;
-  /* text-decoration: none; */
-  text-align: center;
-}
-
-.subtitle {
-  border-top: 3px solid #fff;
-
-  flex-wrap: wrap;
-  text-align: right;
-  justify-content: space-between;
-  padding: 25px 46px 25px 25px;
-  text-shadow: 1px 1px #fff;
-  background-image: url(https://previews.123rf.com/images/oatautta/oatautta1706/oatautta170600136/81519390-blue-steel-plate-industrial-for-background-.jpg);
-  background-color: rgb(23, 106, 214);
-}
-
-.bigbox {
-  width: 100%;
-  float: right;
-  padding: 25px 25px 25px 120px;
+    flex: 1;
+    text-align: right;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
-  height: 250px;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-  padding: 6px;
-  width: 30%;
-  height: 30%;
-  background-color: rgb(23, 106, 214);
-  text-shadow: 2px 1px 4px #fff;
-  opacity: .85;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.shawn {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* .row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+} */
+
+/* h1 {
+    color: ;
+    font-size: ;
+}
+
+p {
+    color: ;
+    font-size: ;
+    line-height: ;
+} */
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url(../images/maroonbells_jerry_blank_craterlake_colorado.jpeg);
+}
+
+.card2 {
+    background-image: url(../images/password_entry_amid_binary_code_by_matejmo_gettyimages-808422590_cso_nw_2400x1600-100855218-large.jpeg);
+}
+
+.card3 {
+    background-image: url(../images/The-Scheduler-for-Jira-1.png);
+}
+
+.card4 {
+    background-image: url(../images/Working-with-adaptive-quizzes-A-beginners-guide.jpeg);
 }
 
 .card:hover {
-  opacity: 1;
+    transform: translateY(-10px);
 }
 
-.email {
-  display: block;
-  font-style: initial;
+h4 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
 }
 
-.footer {
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  text-shadow: 2px 1px 4px #fff;
-  background-color: rgb(23, 106, 214);
-
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-}
-
-.footer-content-right {
-  padding-right: 40px;
-  margin-top: 20px;
-  float: right;
+#work {
+    color:black;
+    text-shadow: 0 0 5px #999;
 }
 
 .icon-style {
-  height: 40px;
-  margin-left: 20px;
-  margin-top: 5px;
-}
-
-.icon-style:hover {
-  background-color: rgb(65, 148, 243);
-  padding: 5px;
-}
-
-a.menu:hover {
-  background-color: rgb(65, 148, 243);
-  font-size: 20px;
-}
-
-@media screen and (max-width: 992px) {
-  .card {
-    width: 50%;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .card {
-    width: 100%;
+  
+  .icon-style:hover {
+    background-color: rgb(65, 148, 243);
+    padding: 5px;
   }
-}
+  
+  a.menu:hover {
+    background-color: rgb(65, 148, 243);
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .card {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
